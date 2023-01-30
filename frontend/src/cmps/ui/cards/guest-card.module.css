@@ -1,0 +1,39 @@
+.guestCard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: 30px auto;
+    grid-template-areas: 'img name' 'img text';
+    line-height: 1.1;
+    cursor: pointer;
+}
+
+.name {
+    grid-area: name;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+.name h4 {
+    font-size: 14px;
+    padding: 0;
+    padding-left: 5px;
+}
+
+.text {
+    padding-left: 5px;
+    grid-area: text;
+    font-size: 14px;
+    align-self: flex-end;
+}
+
+.imgContainer {
+    grid-area: img;
+
+}
+
+.imgContainer img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}

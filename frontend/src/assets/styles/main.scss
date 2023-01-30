@@ -1,0 +1,64 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+@import 'setup/typography';
+@import 'setup/ui';
+
+// Basics
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/base';
+@import 'basics/links';
+@import 'basics/forms';
+
+// Views
+@import 'views/main';
+@import 'views/about-us';
+@import 'views/home-page';
+@import 'views/stay-details';
+@import 'views/review-app';
+@import 'views/user-details';
+@import 'views/hosting';
+@import 'views/book';
+@import 'views/trip-page';
+@import 'views/wishlist';
+@import 'views/new-stay';
+@import 'views/messages-page';
+
+// Components
+@import 'cmps/app-header';
+@import 'cmps/app-footer';
+@import 'cmps/user-msg';
+@import 'cmps/modal';
+@import 'cmps/dashboard';
+@import 'cmps/login-signup';
+
+// Components- messages
+@import 'cmps/messages-page/msg-preview';
+@import 'cmps/messages-page/msg-order-details';
+@import 'cmps/messages-page/msg-order-list';
+
+// Components- stay index
+@import 'cmps/stay-index/stay-list.scss';
+@import 'cmps/stay-index/category-filter-bar';
+
+// Components- stay details
+@import 'cmps/stay-details/reviews-list';
+@import 'cmps/stay-details/reviews-bar';
+@import 'cmps/stay-details/order-modal';
+@import 'cmps/stay-details/stay-highlights';
+@import 'cmps/stay-details/amenities-modal';
+@import 'cmps/stay-details/reviews-modal';
+@import 'cmps/stay-details/stay-calendar';
+@import 'cmps/stay-details/secondary-header';
+@import 'cmps/stay-details/details-mobile-footer';
+
+// Components - Seach/Filter
+@import 'cmps/search-preview';
+@import 'cmps/region-select';
+@import 'cmps/search-form';
+@import 'cmps/nav-menu';
+@import 'cmps/guest-select';
+@import 'cmps/counter';
+@import 'cmps/search-form-nav';

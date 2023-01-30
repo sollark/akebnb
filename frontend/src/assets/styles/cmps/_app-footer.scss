@@ -1,0 +1,38 @@
+.app-footer {
+  padding-block: 14px;
+  border-top: 1px solid $clr-border;
+  background-color: $clr-white;
+  font-family: cereal-Book;
+  color: $clr-text-primary;
+  text-align: start;
+  font-size: 14px;
+
+  &.fixed {
+    position: fixed;
+    bottom: 0vh;
+    z-index: 10;
+    right: 0;
+    left: 0;
+  }
+
+
+    .header-menu-container {
+      @include for-narrow-layout {
+        display: none;
+      }
+  }
+
+
+  p{
+    @include for-mobile-layout {
+      margin-top: 10px;
+    }
+  }
+
+
+  .footer-names{
+    @include for-mobile-layout {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+// styles.scss
+@import '../setup/ui';
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+  grid-gap: 20px;
+}
+.chart {
+  &-rectangle {
+    @extend .container;
+    grid-column: span 2;
+    aspect-ratio: 2/1;
+    max-width: 490px;
+    height: 100%;
+  }
+
+  &-square {
+    display: inline-block;
+    max-width: 200px;
+  }
+
+  &-column {
+    @extend .container;
+    aspect-ratio: 1/1.5;
+    max-width: 190px;
+  }
+  h5 {
+    text-align: center;
+    font-size: 11px;
+    font-family: cereal-Medium;
+    color: hsl(0, 0%, 30%);
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+}
+
+.chart-info {
+  display: flex;
+  flex-direction: column;
+
+  .accent {
+    border: 2px solid $clr-black;
+  }
+
+  &-title {
+    margin: 1rem 0 2rem 0;
+  }
+  &-amount {
+    font-size: 32px;
+    font-family: cereal-Medium;
+    margin-bottom: 1rem;
+  }
+
+  &-last-amount {
+    margin-top: auto;
+  }
+}

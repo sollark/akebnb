@@ -18,7 +18,6 @@ Additional:
 
 - React-Redux (State-Management)
 - Eventbus
-- PWA (via Service Worker + responsive design)
 
 Design and assets:
 

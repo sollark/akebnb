@@ -23,3 +23,11 @@ Additional:
 Design and assets:
 
 - https://www.airbnb.com
+
+Working Github:
+
+- https://github.com/karamisa/CA_sprint4_airbnb
+
+On Render:
+
+- https://akebnb-rental-service.onrender.com/
